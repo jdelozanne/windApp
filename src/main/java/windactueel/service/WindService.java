@@ -10,6 +10,9 @@ package windactueel.service;
  * @author julia
  */
 public class WindService {
+
+    public WindService() {
+    }
     //hier gaan berekenen of de windkracht goed is of niet
     
     //hier gaan berekenen of de windrichting goed is of niet
