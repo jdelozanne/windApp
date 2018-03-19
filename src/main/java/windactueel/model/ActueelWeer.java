@@ -13,6 +13,8 @@ public class ActueelWeer {
     
     private String windkracht;
     
+    private String windrichting;
+    
     
     //hier de json api gebruiken om actueelweer te vullen met data
 
@@ -23,4 +25,14 @@ public class ActueelWeer {
     public void setWindkracht(String windkracht) {
         this.windkracht = windkracht;
     }
+
+    public String getWindrichting() {
+        return windrichting;
+    }
+
+    public void setWindrichting(String windrichting) {
+        this.windrichting = windrichting;
+    }
+    
+    
 }
